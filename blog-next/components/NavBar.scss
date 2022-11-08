@@ -1,0 +1,28 @@
+.navBar{
+    padding:  1em 0;  
+
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1em;
+    }
+
+    ul{
+        margin: unset;
+        padding: unset;
+        list-style: none;
+    }
+
+    .title{
+        color: inherit;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+    .all{
+        color: inherit;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+}
