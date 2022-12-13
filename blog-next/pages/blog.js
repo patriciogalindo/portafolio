@@ -8,10 +8,11 @@ import NavBar from "../components/NavBar"
 function Blog({posts}) {
   return (
     <> 
+    <div className="blog-container">
     <NavBar/>
     <HomeHeader/>
     <HomeLatestPosts posts={posts}/>
-    
+    </div>
      </>
   )
 }

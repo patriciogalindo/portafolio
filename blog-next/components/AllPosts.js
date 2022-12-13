@@ -9,8 +9,10 @@ export default function AllPosts({posts}){
 
 
     useEffect(() => {
-        setPosts(posts)
+        setPosts(posts.slice().reverse())
+
     }, [posts]);
+
 
     function renderPostPreviews(){
         return Posts.map((e) =>{
@@ -22,7 +24,7 @@ export default function AllPosts({posts}){
     return(
         <>
 
-        <h2> Latest Posts</h2>
+        <h2> All Posts</h2>
         {renderPostPreviews()}
         </>
 

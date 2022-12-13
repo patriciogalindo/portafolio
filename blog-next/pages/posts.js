@@ -5,9 +5,11 @@ import NavBar from "../components/NavBar";
 
 export default function Posts({posts}){
     return (
-      <>      
+      <>    
+      <div className="blog-container">  
       <NavBar/>
         <AllPosts posts={posts}/>
+        </div>
         </>
 
     )

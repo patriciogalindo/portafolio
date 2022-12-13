@@ -4,15 +4,13 @@ export default function HomeHeader() {
     return(
         <header>
         <h1>
-        Patos blog
+        The Blog
         </h1>
         
 
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Et malesuada fames ac turpis egestas.
-        </p>
+        <h2>
+            This Blog is dedicated to topics regarding Javascript, React, HTML, SQL. 
+        </h2>
         </header>
     )
 }

@@ -3,6 +3,7 @@ import axios from "axios";
 
 export default function PostPage({post}){
     return (
+        <div className="blog-container">
         <article>
             <header>
         <h1>{post.attributes.title}</h1>
@@ -10,6 +11,7 @@ export default function PostPage({post}){
         <p>{post.attributes.content}</p>
         </header>
         </article>
+        </div>
     )
 }
 

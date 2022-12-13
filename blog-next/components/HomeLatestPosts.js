@@ -9,7 +9,7 @@ export default function HomeLatestPosts({posts}){
 
 
     useEffect(() => {
-        const p = posts.slice(0,5)
+        const p = posts.slice(0,5).reverse()
         setLatestPosts(p)
     }, [posts]);
 
